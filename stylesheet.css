@@ -27,11 +27,11 @@ h5 {
 font-size: 15px;
 } 
 
-a.visited { 
+a:visited { 
 color:#C60C30;
 } 
 
-a.hover { 
+a:hover { 
 color:#C60C30;
 }
 
