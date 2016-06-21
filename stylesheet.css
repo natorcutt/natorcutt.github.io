@@ -28,8 +28,12 @@ font-size: 15px;
 } 
 
 a.visited { 
-color:#C60C30
+color:#C60C30;
 } 
+
+a.hover { 
+color:#C60C30;
+}
 
 #anchor { 
 width: 85%; 
