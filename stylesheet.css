@@ -26,13 +26,8 @@ font-size: 17px;
 h5 { 
 font-size: 15px;
 } 
-
-a#tableofcontents { 
-width: 15%; 
-display: block;
-float: right;
-font-size: 10px;
-padding: 10px;
+a.active { 
+color:#C60C30
 }
 
 #anchor { 
@@ -127,20 +122,35 @@ display: block;
 width: 85%;  
 } 
 
+a#tableofcontents { 
+width: 15%; 
+display: block;
+float: right;
+font-size: 10px;
+padding: 10px;
+}
+
 ul.contents { 
 list-style-type: none;
 } 
 
+li.contents { 
+padding: 12px;
+}
+ul.contents2 { 
+list-style-type:none; 
+}
+
 .block1 { 
-left-margin: 20px; 
+margin-left: 40px;   
 } 
 
 .block2 { 
-left-margin: 20px; 
+margin-left: 40px; 
 } 
 
 .block3 { 
-left-margin: 20px; 
+margin-left: 40px; 
 } 
 
 /* --------- Safety Information Section ------ */ 
