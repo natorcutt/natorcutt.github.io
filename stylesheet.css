@@ -238,6 +238,7 @@ width:45%;
 }
 th { 
 border: 1px solid black; 
+background-color: darkgray;
 } 
 tr td { 
 border: 1px solid black;
