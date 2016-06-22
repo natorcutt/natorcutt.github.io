@@ -1,7 +1,8 @@
 body { 
 font-family: 'Noto Sans', sans-serif; 
 } 
-@media (max-width:21em) {
+@media 
+     (max-width:330px),
     table, thead, tbody,, th, td, tr { 
         display:block;
     }
@@ -260,7 +261,7 @@ border-collapse: collapse;
 td.threadsize { 
 border-top: none; 
 } 
-.ui-responsive { 
+.grade8steelset {
 margin: auto; 
 width:45%; 
 }
