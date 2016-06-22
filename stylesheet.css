@@ -255,6 +255,7 @@ padding: 5px;
 /* ----------------- Table ---------------- */ 
 table { 
 border-collapse: collapse; 
+    width:100%;
 } 
 td.threadsize { 
 border-top: none; 
