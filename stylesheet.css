@@ -1,7 +1,32 @@
 body { 
 font-family: 'Noto Sans', sans-serif; 
 } 
-@media (max-width:100em) { 
+@media (max-width:21em) {
+    table, thead, tbody,, th, td, tr { 
+        display:block;
+    }
+    thead tr { 
+        position: absolute;
+        top: -9999px; 
+        left: -9999px; 
+    }
+    tr { 
+        border: 1px solid #ccc; 
+    } 
+    td:before { 
+        /* Now like a table header */ 
+        position:absolute; 
+        /* Topl/left values mimic padding */ 
+        top: 6px; 
+        left: 6px; 
+        width: 45%; 
+        padding-right: 10px; 
+        white-space:nowrap; 
+    }
+    /* Label the data */ 
+    td:nth-of-type(1):before { content:"Thread Size"; } 
+    td:nth-of-type(2):before { content: "Square Head"; } 
+    td:nth-of-type(3):before { content:"Hex Socket"; } 
 }
 /* ---- All Sections ------ */ 
 .container { 
@@ -244,6 +269,7 @@ background-color: darkgray;
 } 
 tr td { 
 border: 1px solid black;
+    text-align: center;
 } 
 /* ---------------- Specifications Cont. --------- */
 .spec4 { 
