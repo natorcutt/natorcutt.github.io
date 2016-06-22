@@ -208,7 +208,7 @@ padding: 5px;
 } 
 .fid { 
 margin: auto; 
-width: 26%;
+width: 30%;
 display: block; 
 } 
 .standtorque {  
@@ -219,12 +219,14 @@ width: 85%;
 #standtorquetitle { 
 margin: auto; 
 display: block; 
-width: 80%; 
+width: 80%;
+text-align: center; 
 } 
 #standtorquetitlem { 
 margin: auto; 
 display: block; 
-width: 80%; 
+width: 70%;
+text-align: center;
 } 
 .standtorque > p { 
 font-size: 12px; 
@@ -295,14 +297,16 @@ padding: 5px;
 .steel { 
 display: block; 
 margin: auto;
-width: 30%;
+width: 40%;
 padding: 10px;
+text-align: center;
 } 
 .wheel { 
 display: block; 
 margin: auto;
-width: 25%;
+width: 30%;
 padding: 10px;
+text-align: center;
 }
 #specs56 { 
 display: block; 
@@ -313,13 +317,15 @@ padding-top: 20px;
 display: block; 
 margin: auto;
 width: 42%;
-padding: 10px;  
+padding: 10px; 
+text-align: center;
 } 
 .thread2 { 
 display: block; 
 margin: auto;
 width: 42%;
 padding: 10px;
+text-align: center;
 } 
 .spec5 { 
 display: block; 
@@ -417,7 +423,7 @@ padding-bottom: 20px;
 .spec12 { 
 margin: auto; 
 display: block; 
-width: 85%; 
+width: 80%;
 padding-bottom: 20px;
 } 
 /* --------- Titan MX Specs Section ----------- */ 
