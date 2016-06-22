@@ -233,7 +233,7 @@ font-size: 12px;
 } 
 .standmetric { 
 margin: auto; 
-display: block; 
+display: inline;
 width: 85%;
 } 
 .standmetric > p { 
@@ -271,6 +271,7 @@ table {
 border-collapse: collapse; 
     width:100%;
     margin:auto; 
+    display:inline;
 } 
 td.threadsize { 
 border-top: none; 
